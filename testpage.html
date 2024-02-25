@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Design a Progress bar</title>
+    <style>
+        .test::after {
+      position: absolute;
+      width: 55px;
+      height: 2px;
+      background-color: #ff6700;
+      top: 50%;
+      content: "";
+      margin-left: 10px;
+    }
+        p {
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: rgb(192, 192, 192);
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .skill {
+            background-color: rgb(116, 194, 92);
+            color: white;
+            padding: 7px; /* Adjusted padding for increased height */
+            text-align: right;
+            font-size: 12px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .html {
+            width: 0; /* Set initial width to 0% */
+        }
+
+        .php {
+            width: 0; /* Set initial width to 0% */
+        }
+
+        .css {
+            width: 0; /* Set initial width to 0% */
+        }
+        .hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+p{
+  text-transform: uppercase;
+  color: red;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 1rem;
+
+}
+
+div{
+  width: 500px;
+    border: 1px solid #ccc;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="hr-lines"> PEACE </h2>
+
+<section>
+  <div>
+    <p>I wish for peace in Russia & Ukraine</p>
+  </div>
+<section>
+
+
+
+
+
+    <h1 class="">My Skills</h1>
+    <p>HTML</p>
+    <div class="container">
+        <div class="skill html">0%</div>
+    </div>
+
+    <p>PHP</p>
+    <div class="container">
+        <div class="skill php">0%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="container">
+        <div class="skill css">0%</div>
+    </div>
+
+    <script>
+        // Function to animate the progress bar
+        function animateProgressBar(skillClassName, targetWidth, interval) {
+            var progressBar = document.querySelector('.' + skillClassName);
+            var currentWidth = 0;
+
+            var progressInterval = setInterval(function () {
+                if (currentWidth >= targetWidth) {
+                    clearInterval(progressInterval);
+                } else {
+                    currentWidth++;
+                    progressBar.style.width = currentWidth + "%";
+                    progressBar.innerText = currentWidth + "%";
+                }
+            }, interval);
+        }
+
+        // Set the target percentages and animation intervals
+        animateProgressBar('html', 80, 20);
+        animateProgressBar('php', 60, 20);
+        animateProgressBar('css', 90, 20);
+    </script>
+</body>
+
+</html>
