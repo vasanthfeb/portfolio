@@ -44,7 +44,8 @@
       overflow-x: hidden;
     }
     .img-responsive:hover{
-      border: 2px solid #fcb103;
+      border: 2px solid #08b1ff ;
+      box-shadow: rgba(64, 192, 243, 0.74) 0px 5px 15px;
       padding: 10px;
     }
     .img-responsive{
@@ -55,7 +56,7 @@
       padding: 0 30px;
     }
     .con-text{
-      color: #fcb103;
+      color: #08b1ff;
     
         font-family: "Philosopher", sans-serif;
         font-weight: 700;
@@ -70,33 +71,33 @@
     }
     .form-control:focus{
       background-color:#000000;
-      border: 5px double #fcb103;
+      border: 5px double #08b1ff;
       box-shadow: none;
     }
     .v3{
       width: 200px;
     }
     .c6{
-      color: #fcb103;
+      color: #08b1ff;
       font-size: 23px;
       
       padding: 8px;
       border-radius: 50px;
     }
     .v3{
-      border: 2px solid #fcb103;
+      border: 2px solid #08b1ff;
       border-radius: 14px;
       margin-left: 10px;
     }
     .v3:hover{
-      border:2px solid #fcb103;
+      border:2px solid #08b1ff;
       border-radius: 14px;
     }
     .v3:hover .achu{
-      color: #fcb103;
+      color: #08b1ff;
     }
     .v3:hover .c6{
-      background-color:#fcb103;
+      background-color:#08b1ff;
       padding: 8px;
       border-radius: 50px;
       color: #fff;
@@ -113,7 +114,7 @@
       font-weight: 600;
   }
   .H-1:hover{
-      color: #fcb103 !important;
+      color: #08b1ff !important;
   }
 
 
@@ -147,7 +148,7 @@
     
     li > a:hover::after, li > a.active-nav::after {
       width: 100%;
-      background: #fcb103;
+      background: #08b1ff;
     }
     /* i am start */
     .iam{
@@ -157,15 +158,15 @@
         font-family: sans-serif;
     }
     .text{
-      color: #fcb103;
-        border-right: 2px solid #fcb103;
+      color: #08b1ff;
+        border-right: 2px solid #08b1ff;
         font-size: 55px;
         font-family: sans-serif;
         /* color: rgb(23, 99, 192) 23; */
         padding: 15px;
     }
     .I-Con{
-      color: #fcb103 !important;
+      color: #08b1ff !important;
       font-size: 20px;
     }
     /*============== projects page start============ */
@@ -177,7 +178,7 @@
     }
     .three-box:hover{
       background-color: rgb(190, 202, 198);
-      color: #fcb103;
+      color: #08b1ff;
     }
     .three-box .a-color:hover{
       color: rgb(121, 115, 120);
@@ -264,8 +265,8 @@
     margin: auto;
     width: 180px;
     padding: 1px;
-    background: #fcb103;
-    border: 1px solid #fcb103;
+    background: #08b1ff;
+    border: 1px solid #08b1ff;
     border-radius: 15px;
     font-size: 15px;
     color: white;
@@ -283,7 +284,7 @@
   }
       
   .carousel-cell .b:hover {
-    background: #fcb103;
+    background: #08b1ff;
     transform: scale(1.03);
     font-size: 16px;
   }
@@ -311,8 +312,8 @@
   }
       /* ==============  end =============== */
       .nav-item.active a{
-      color: #fcb103 !important;
-      text-decoration: underline 2px solid #fcb103;
+      color: #08b1ff !important;
+      text-decoration: underline 2px solid #08b1ff;
       }
       .vasanth-title{
         display: none;
@@ -330,7 +331,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background: #fcb103;
+        background: #08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -340,7 +341,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background: #fcb103;
+        background: #08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -358,7 +359,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background: #fcb103;
+        background: #08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -368,7 +369,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background: #fcb103;
+        background: #08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -386,7 +387,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background:#fcb103;
+        background:#08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -396,7 +397,7 @@
         content:" ";
         height: 2px;
         width: 130px;
-        background: #fcb103;
+        background: #08b1ff;
         display: block;
         position: absolute;
         top: 50%;
@@ -441,7 +442,7 @@
           content:" ";
           height: 2px;
           width: 130px;
-          background: #fcb103;
+          background: #08b1ff;
           display: block;
           position: absolute;
           top: 50%;
@@ -451,7 +452,7 @@
           content:" ";
           height: 2px;
           width: 130px;
-          background: #fcb103;
+          background: #08b1ff;
           display: block;
           position: absolute;
           top: 50%;
@@ -496,7 +497,7 @@
 .gallery-title
 {
     font-size: 36px;
-    color: #fcb103;
+    color: #08b1ff;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -512,27 +513,29 @@
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #fcb103;
+    border: 2px solid #08b1ff;
     border-radius: 5px;
     text-align: center;
-    color: #fcb103;
+    color: #08b1ff;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #fcb103;
+    /* box-shadow: rgba(7, 123, 255, 0.87) 0px 5px 15px; */
+    border: 2px solid #08b1ff;
     border-radius: 5px;
     text-align: center;
-    color: #ffffff;
-    background-color: #fcb103;
+    color: #ffffff !important;
+    background-color: #08b1ff !important;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #fcb103;
+    background-color: #08b1ff;
     color: white;
+    
 }
  
 .port-image
@@ -557,7 +560,7 @@ img{
 }
 .I-Con:hover{
   color:rgb(255, 255, 255) !important;
-  background-color: #fcb103 !important;
+  background-color: #08b1ff !important;
   border-radius: 50px;
   padding-bottom: 3px;
  
